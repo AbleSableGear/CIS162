@@ -14,7 +14,7 @@
 
 
 /* Header */
-header { font: bold 2rem Helvetica, Arial, sans-serif; margin: 0 0 0.5em; }
+header { font: bold 1.8em Helvetica, Arial, sans-serif; margin: 0 0 0.5em; }
 /* HTML and Body Styles */
 html {
        background-color: rgb(231,236,240);
@@ -26,9 +26,9 @@ html {
 }
 
 /* Heading Styles */
-    h1 { font: bold 1.5rem Helvetica, Arial, sans-serif; margin: 0 0 0.5em; }
-    h2 { font: bold 1.8rem Helvetica, Arial, sans-serif; margin: 0 0 1em; }
-    h3 { font: bold 1.5rem Helvetica, Arial, sans-serif; margin: 0 0 1em; }
+    h1 { font: bold 1em Helvetica, Arial, sans-serif; margin: 0 0 0.5em; }
+    h2 { font: bold 1em Helvetica, Arial, sans-serif; margin: 0 0 1em; }
+    h3 { font: bold 1em Helvetica, Arial, sans-serif; margin: 0 0 1em; }
     h4, h5, h6 { font: bold 1.2rem Helvetica, Arial, sans-serif; margin: 0 0 1em; }
 
 /* Aside and Blockquote Styles */
@@ -58,9 +58,10 @@ nav {
 
 /* Footer Styles */
 body > footer {
-       color: black; color: rgba(0, 0, 0);
+       color: black; color: rgba(0, 0, 0, 50%);
        font: bold 0.9em/3em
              Quicksand, Verdana, Geneva, sans-serif;
+        background-color: white;
        text-align: center;
 }
 
