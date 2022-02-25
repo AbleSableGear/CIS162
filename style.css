@@ -58,10 +58,9 @@ nav {
 
 /* Footer Styles */
 body > footer {
-       color: black; color: rgba(0, 0, 0, 50%);
+       color: black; color: rgba(0, 0, 0, 30%);
        font: bold 0.9em/3em
              Quicksand, Verdana, Geneva, sans-serif;
-        background-color: white;
        text-align: center;
 }
 
