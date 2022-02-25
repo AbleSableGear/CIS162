@@ -13,7 +13,8 @@
 */
 
 
-
+/* Header */
+header { font: bold 2rem Helvetica, Arial, sans-serif; margin: 0 0 0.5em; }
 /* HTML and Body Styles */
 html {
        background-color: rgb(231,236,240);
@@ -25,7 +26,7 @@ html {
 }
 
 /* Heading Styles */
-    h1 { font: bold 3rem Helvetica, Arial, sans-serif; margin: 0 0 0.5em; }
+    h1 { font: bold 1.5rem Helvetica, Arial, sans-serif; margin: 0 0 0.5em; }
     h2 { font: bold 1.8rem Helvetica, Arial, sans-serif; margin: 0 0 1em; }
     h3 { font: bold 1.5rem Helvetica, Arial, sans-serif; margin: 0 0 1em; }
     h4, h5, h6 { font: bold 1.2rem Helvetica, Arial, sans-serif; margin: 0 0 1em; }
@@ -57,9 +58,8 @@ nav {
 
 /* Footer Styles */
 body > footer {
-       background-color: rgb(255,255,255);
-       color: white; color: rgba(255, 255, 255, 0.7);
-       font: normal small-caps bold 0.9em/3em
+       color: black; color: rgba(0, 0, 0);
+       font: bold 0.9em/3em
              Quicksand, Verdana, Geneva, sans-serif;
        text-align: center;
 }
