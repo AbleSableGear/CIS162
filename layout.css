@@ -1,48 +1,46 @@
-@charset "utf-8";
-/*
-   New Perspectives on HTML5 and CSS3, 8th Edition
-   Tutorial 2
-   Tutorial Case
-   
-   TSS Typographic Style Sheet
-   Author: Pei Li
-   Date:   2/22/22
-   
-   Filename: layout.css
-
-*/
-body {
-	margin: 0 auto;
-	width: 100%;
-	max-width: 1020px;
-	min-width: 640px;
-}
-
-body > header {
-	width: 100%;
-	overflow: hidden;
-    margin: 20px 1.5% 20px 0;
-}
-
-body > nav {
-	width: 20%;
-	float: left;
-	margin: 30px 0 0 1.5%;
-}
-
-body > aside {
-	width: 20%;
-	float: left;
-	margin: 0 1.5% 0 0;
-}
-
-article {
-    float: left;
-	width: 74.5%;
-	margin: 0 4% 0 0%;
-}
-
-body > footer {
-	width: 100%;
-	clear: left;
-}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title>About Curbside Thai</title>
+    <link href="layout.css" rel="stylesheet" />
+    </head>
+    body > header > nav.horizontalNavigation li {
+           width: 100%;
+    }
+    body{
+        margin-left:  auto;
+        magin-right:  auto:
+        width:  95%
+        }
+    body > header > img {
+           display: block;
+           width: 100%;
+    }
+    body > header > nav.horizontalNavigation li {
+           width: 20%;
+    }
+    nav.horizontalNavigation li{
+        display: block;
+        float:  left;
+        }
+    nav.horizontalNavigation a {
+           display: block;
+           text-align: center;
+    }
+    section#leftColumn {
+        clear:  left;
+        float:  left;
+        width: 50%
+        }
+    section#leftColumn img {
+           display: block;
+           width: 100%;
+    }
+    section#rightColumn {
+        float:  left;
+        width:  50%
+        }
+    footer {
+           clear: left;
+    }
